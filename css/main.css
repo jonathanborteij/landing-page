@@ -23,15 +23,15 @@
 
 .row2 {
   display: grid;
-  height: 250px;
+  min-height: 250px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   background: #FFF;
   justify-items: center;
   width: 100%;
   grid-gap: 0.3em;
+  margin: 55px 0;
 }
-
   
   .column {
     flex: 75%;
@@ -82,16 +82,44 @@
   .box {
     width: 80%;
     height: 100%;
-    margin: 55px;
     padding: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 0.3em;
     
   }
   
-  .headlinetext {
-    display: block;
-    text-align: center;
-    font-size: 25px;
-    margin: 25px;
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+
+    
+  .serviceText {
+    text-align: center;
+  }
+
+  .button {
+      background-color: white;
+      color: black;
+      border: 2px solid #323377;
+    }
+
+    #footer {
+      display: grid;
+      grid-template-columns: 33.3% 33.3% 33.3%;
+      width: 100%;
+      background-color: #a9beda;
+      color: white;
+      text-align: center;
+    }
+
+    #footer div {
+      padding: 55px;
+      background-color: #a9beda;
+      color: white;
+      text-align: center;
+      list-style: none;
+    }
+
+  
