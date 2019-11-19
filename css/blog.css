@@ -1,0 +1,27 @@
+#containerblog {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:660px 300px;
+    grid-gap: 20px;
+}
+
+.post {
+ margin: 55px;
+ width: 100%;
+ background-color: white;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ border-radius: 0.3em;
+ color: black;
+ padding: 10px;
+}
+
+.postarchive {
+ width: 100%;
+ margin: 55px;
+ background-color: white; 
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ border-radius: 0.3em;
+ color: black;
+ padding: 10px;
+}
