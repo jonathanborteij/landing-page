@@ -1,5 +1,5 @@
 #containerblog {
-    width: 90%;
+    width: 90px;
     margin: 0 auto;
     display: grid;
     grid-template-columns:660px 300px;
